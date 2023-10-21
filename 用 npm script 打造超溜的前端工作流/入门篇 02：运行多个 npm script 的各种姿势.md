@@ -67,7 +67,7 @@ index c904250..023d71e 100644
 
 `eslint ==> stylelint ==> jsonlint ==> markdownlint ==> mocha`
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff2957cc35e9ce?w=1078&h=669&f=png&s=90004)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff2957cc35e9ce~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1078&h=669&f=png&s=90004)
 
 需要注意的是，串行执行的时候如果前序命令失败（通常进程退出码非0），后续全部命令都会终止，我们可以尝试在 index.js 中引入错误（删掉行末的分号）：
 
@@ -89,7 +89,7 @@ index ab8bd0e..b817ea4 100644
 
 然后重新运行 npm t，结果如下，npm run lint:js 失败之后，后续命令都没有执行：
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff2961675b23a7?w=1042&h=512&f=png&s=89882)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff2961675b23a7~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1042&h=512&f=png&s=89882)
 
 ## 让多个 npm script 并行？
 
@@ -111,7 +111,7 @@ index 023d71e..2d9bd6f 100644
 
 重新运行 npm t，我们得到如下结果：
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff29662791ea78?w=1094&h=926&f=png&s=141214)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff29662791ea78~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1094&h=926&f=png&s=141214)
 
 细心的同学可能已经发现上图中哪里不对，npm run lint:js 的结果在进程退出之后才输出，如果你自己运行，不一定能稳定复现这个问题，但 npm 内置支持的多条命令并行跟 js 里面同时发起多个异步请求非常类似，它只负责触发多条命令，而不管结果的收集，如果并行的命令执行时间差异非常大，上面的问题就会稳定复现。怎么解决这个问题呢？
 

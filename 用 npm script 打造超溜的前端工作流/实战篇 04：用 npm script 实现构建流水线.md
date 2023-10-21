@@ -236,21 +236,21 @@ done
 
 然后我们尝试运行 npm run build，完整的过程输出如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e5912427543?w=984&h=1290&f=png&s=171783)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e5912427543~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=984&h=1290&f=png&s=171783)
 
 构建完成的 dist 目录内容如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e5b824399a7?w=698&h=240&f=png&s=25460)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e5b824399a7~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=698&h=240&f=png&s=25460)
 
 可以看到，所有的静态资源都加上了版本号。
 
 构建完成的 dist/index.html 内容如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e5e1a91e46c?w=875&h=416&f=png&s=74207)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e5e1a91e46c~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=875&h=416&f=png&s=74207)
 
 可以看到，静态资源的版本号被正确替换了，为了验证构建出来的页面是否正常运行，可以运行 `./node_modules/.bin/http-server dist`，然后浏览器打开：`http://127.0.0.1:8080`，不出意外的话，浏览器显示如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e60258d8eeb?w=865&h=688&f=png&s=192586)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e60258d8eeb~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=865&h=688&f=png&s=192586)
 
 > **好了，到这里，我们给简单但是五脏俱全的前端项目加上了构建过程，这些环节你是否都清楚？你觉得还缺失些什么环节？欢迎留言交流**
 

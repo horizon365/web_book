@@ -59,7 +59,7 @@ npm i livereload http-server -D
 
 最后，运行 npm run client 之后，截图如下，注意两个红框里面的输出表示服务启动成功：
 
-![](https://user-gold-cdn.xitu.io/2017/12/14/1605294cbbf843bc?w=1066&h=503&f=png&s=111997)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/14/1605294cbbf843bc~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1066&h=503&f=png&s=111997)
 
 然后，打开浏览器访问：http://localhost:8080，接着修改 client/main.css 并保存（**别忘了保存**），你会发现浏览器自动刷新了。如果没有刷新，欢迎留言交流。
 

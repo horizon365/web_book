@@ -6,13 +6,13 @@
 
 首先我们来看一下笔者画的内部流程图。
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606e7eaa2a664e8?w=1752&h=1216&f=png&s=190985)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606e7eaa2a664e8~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1752&h=1216&f=png&s=190985)
 
 大家第一次看到这个图一定是一头雾水的，没有关系，我们来逐个讲一下这些模块的作用以及调用关系。相信讲完之后大家对Vue.js内部运行机制会有一个大概的认识。
 
 ## 初始化及挂载
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606e8abbababbe6?w=828&h=336&f=png&s=24213)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606e8abbababbe6~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=828&h=336&f=png&s=24213)
 
 在 `new Vue()` 之后。 Vue 会调用 `_init` 函数进行初始化，也就是这里的 `init` 过程，它会初始化生命周期、事件、 props、 methods、 data、 computed 与 watch 等。其中最重要的是通过 `Object.defineProperty` 设置 `setter` 与 `getter` 函数，用来实现「**响应式**」以及「**依赖收集**」，后面会详细讲到，这里只要有一个印象即可。
 
@@ -22,7 +22,7 @@
 
 compile编译可以分成 `parse`、`optimize` 与 `generate` 三个阶段，最终需要得到 render function。
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606ec3d306ab28f?w=824&h=496&f=png&s=37271)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606ec3d306ab28f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=824&h=496&f=png&s=37271)
 
 ### parse
 
@@ -42,13 +42,13 @@ compile编译可以分成 `parse`、`optimize` 与 `generate` 三个阶段，最
 
 接下来也就是 Vue.js 响应式核心部分。
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606edad5ca9e23d?w=1460&h=728&f=png&s=131217)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606edad5ca9e23d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1460&h=728&f=png&s=131217)
 
 这里的 `getter` 跟 `setter` 已经在之前介绍过了，在 `init` 的时候通过 `Object.defineProperty` 进行了绑定，它使得当被设置的对象被读取的时候会执行 `getter` 函数，而在当被赋值的时候会执行 `setter` 函数。
 
 当 render function 被渲染的时候，因为会读取所需对象的值，所以会触发 `getter` 函数进行「**依赖收集**」，「**依赖收集**」的目的是将观察者 Watcher 对象存放到当前闭包中的订阅者 Dep 的 subs 中。形成如下所示的这样一个关系。
 
-![](https://user-gold-cdn.xitu.io/2017/12/21/160770b2a77e084e?w=520&h=245&f=png&s=14372)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/21/160770b2a77e084e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=520&h=245&f=png&s=14372)
 
 在修改对象的值的时候，会触发对应的 `setter`， `setter` 通知之前「**依赖收集**」得到的 Dep 中的每一个 Watcher，告诉它们自己的值改变了，需要重新渲染视图。这时候这些 Watcher 就会开始调用 `update` 来更新视图，当然这中间还有一个 `patch` 的过程以及使用队列来异步更新的策略，这个我们后面再讲。
 
@@ -84,7 +84,7 @@ compile编译可以分成 `parse`、`optimize` 与 `generate` 三个阶段，最
 
 ## 更新视图
 
-![](https://user-gold-cdn.xitu.io/2017/12/21/1607715c316d4922?w=731&h=339&f=png&s=38351)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/21/1607715c316d4922~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=731&h=339&f=png&s=38351)
 
 前面我们说到，在修改一个对象值的时候，会通过 `setter -> Watcher -> update` 的流程来修改对应的视图，那么最终是如何更新视图的呢？
 
@@ -94,7 +94,7 @@ compile编译可以分成 `parse`、`optimize` 与 `generate` 三个阶段，最
 
 ## 再看全局
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606e7eaa2a664e8?w=1752&h=1216&f=png&s=190985)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606e7eaa2a664e8~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1752&h=1216&f=png&s=190985)
 
 回过头再来看看这张图，是不是大脑中已经有一个大概的脉络了呢？
 

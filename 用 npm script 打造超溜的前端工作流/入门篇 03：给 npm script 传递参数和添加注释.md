@@ -31,7 +31,7 @@ diff --git a/package.json b/package.json
 
 运行效果如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/11/27/15ffa71dbf43d9ff?w=1702&h=376&f=jpeg&s=77949)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/27/15ffa71dbf43d9ff~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1702&h=376&f=jpeg&s=77949)
 
 上图第2个红色框里面是实际执行的命令，可以看到 `--fix` 参数附加在了后面。
 
@@ -58,7 +58,7 @@ diff --git a/package.json b/package.json
 
 这种方式的明显不足是，npm run 列出来的命令列表不能把注释和实际命令对应上，如果你声明了多个，npm run 只会列出最后那个，如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/11/27/15ffa7295bd69b87?w=844&h=441&f=png&s=56037)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/27/15ffa7295bd69b87~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=844&h=441&f=png&s=56037)
 
 另外一种方式是直接在 script 声明中做手脚，因为命令的本质是 shell 命令（适用于 linux 平台），我们可以在命令前面加上注释，具体做法如下：
 
@@ -74,7 +74,7 @@ diff --git a/package.json b/package.json
 
 注意注释后面的换行符 `\n` 和多余的空格，换行符是用于将注释和命令分隔开，这样命令就相当于微型的 shell 脚本，多余的空格是为了控制缩进，也可以用制表符 `\t` 替代。这种做法能让 npm run 列出来的命令更美观，但是 scripts 声明阅读起来不那么整齐美观。
 
-![](https://user-gold-cdn.xitu.io/2017/11/27/15ffa72c247900f5?w=846&h=412&f=png&s=54745)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/27/15ffa72c247900f5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=846&h=412&f=png&s=54745)
 
 上面两种方式都有明显的缺陷，个人建议的更优方案还是把复杂的命令剥离到单独的文件中管理，在单独的文件中可以自由给它添加注释，详见后续章节。
 
@@ -92,7 +92,7 @@ diff --git a/package.json b/package.json
 
 结合其他工具调用 npm script 的时候比较有用，需要使用 `--loglevel silent`，或者 `--silent`，或者更简单的 `-s` 来控制，这个日志级别的输出实例如下（只有命令本身的输出，读起来非常的简洁）：
 
-![](https://user-gold-cdn.xitu.io/2017/11/27/15ffa73279c8a9e8?w=782&h=232&f=png&s=20452)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/27/15ffa73279c8a9e8~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=782&h=232&f=png&s=20452)
 
 如果执行各种 lint script 的时候启用了 `-s` 配置，代码都符合规范的话，你不会看到任何输出，这就是**没有消息是最好的消息**的由来，哈哈！
 
@@ -100,7 +100,7 @@ diff --git a/package.json b/package.json
 
 排查脚本问题的时候比较有用，需要使用 `--loglevel verbose`，或者 `--verbose`，或者更简单的 `-d` 来控制，这个日志级别的输出实例如下（详细打印出了每个步骤的参数、返回值，下面的截图只是部分）：
 
-![](https://user-gold-cdn.xitu.io/2017/11/27/15ffa734d9168dff?w=826&h=691&f=png&s=157260)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/27/15ffa734d9168dff~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=826&h=691&f=png&s=157260)
 
 * * *
 

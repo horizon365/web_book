@@ -33,11 +33,11 @@ HMR 的实现和运行相对复杂，需要多个部分协同配合，这里稍�
 
 了解这个概念后，我们来看一下 HMR 的大致运行流程图。
 
-![hmr flow chart](https://user-gold-cdn.xitu.io/2018/3/19/1623bffb086c3918?w=1272&h=890&f=png&s=218413)
+![hmr flow chart](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/3/19/1623bffb086c3918~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1272&h=890&f=png&s=218413)
 
 当你使用前面的配置启动了支持 HMR 的 webpack-dev-server，然后在浏览器打开页面时，你也可以从控制台看到大概的 HMR 执行流程：
 
-![hmr log in console](https://user-gold-cdn.xitu.io/2018/3/19/1623c0004b223528?w=396&h=122&f=png&s=18243)
+![hmr log in console](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/3/19/1623c0004b223528~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=396&h=122&f=png&s=18243)
 
 开启了 hot 功能的 webpack 会往我们应用的主要代码中添加 WS 相关的代码，用于和服务器保持连接，等待更新动作。
 

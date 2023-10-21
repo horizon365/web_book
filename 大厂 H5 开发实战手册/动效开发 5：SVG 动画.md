@@ -6,7 +6,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 
 下面以一个购物袋的 loading 动效为示例，带领大家上手 SVG 动画。
 
-![效果](https://user-gold-cdn.xitu.io/2018/2/22/161be0fc40cc3301?w=301&h=233&f=gif&s=60669)
+![效果](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be0fc40cc3301~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=301&h=233&f=gif&s=60669)
 
 其中旋转通过 CSS 来完成，但是旋转之后圆弧缩短变成笑脸的嘴巴需要借助 SVG 来实现。
 
@@ -21,7 +21,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 
 阅读器会设置一个默认的坐标系统，见下图：左上角为原点，其中水平（x）坐标向右递增，垂直（y）坐标向下递增。
 
-![坐标系统](https://user-gold-cdn.xitu.io/2018/2/22/161be10cc3f5fc0e?w=359&h=276&f=png&s=8037)
+![坐标系统](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be10cc3f5fc0e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=359&h=276&f=png&s=8037)
 
 在没有指定的情况下，所有数值的默认单位都是像素。
 
@@ -65,7 +65,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 4.  以负角度绘制为 0，否则为 1
 5.  终点的x、y坐标
 
-![图片](https://user-gold-cdn.xitu.io/2018/2/22/161be16aaf4efee4?w=335&h=289&f=png&s=8581)
+![图片](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be16aaf4efee4~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=335&h=289&f=png&s=8581)
 
 接下来绘制购物袋上面的部分：
 
@@ -78,7 +78,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 
 样式中的 `stoke` 和 `stroke-width` 分别用来设置描边色和描边的宽度。
 
-![图片](https://user-gold-cdn.xitu.io/2018/2/22/161be172ffcd05d7?w=305&h=286&f=png&s=9394)
+![图片](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be172ffcd05d7~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=305&h=286&f=png&s=9394)
 
 ### 步骤 3 - 绘制眼睛
 
@@ -90,7 +90,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 
 使用基础形状，画两个小圆点。四个属性分别是位置坐标、半径和填充颜色。
 
-![绘制眼睛](https://user-gold-cdn.xitu.io/2018/2/22/161be17aa1fd5568?w=297&h=287&f=png&s=9577)
+![绘制眼睛](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be17aa1fd5568~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=297&h=287&f=png&s=9577)
 
 ### 步骤 4 - 绘制嘴巴
 
@@ -105,7 +105,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 > 2.  `stroke-dasharray`：用来创建虚线
 > 3.  `stroke-dashoffset`：设置虚线位置的起始偏移值，在下一个步骤里，它会和 `stroke-dasharray` 一起用来实现动效
 
-![绘制嘴巴](https://user-gold-cdn.xitu.io/2018/2/22/161be1948afec303?w=314&h=285&f=png&s=10645)
+![绘制嘴巴](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be1948afec303~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=314&h=285&f=png&s=10645)
 
 ### 步骤 5 - 给嘴巴部分添加动效
 
@@ -137,7 +137,7 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 
 在一个循环里，最后留有 30% 的时间保持一个停留状态。
 
-![嘴巴动画](https://user-gold-cdn.xitu.io/2018/2/22/161be1af387d088a?w=354&h=282&f=gif&s=76664)
+![嘴巴动画](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be1af387d088a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=354&h=282&f=gif&s=76664)
 
 ### 步骤 6 - 给眼睛添加动画
 
@@ -171,14 +171,14 @@ CSS3 动画已然足够强大，不过还是有一些它做不到的地方，例
 > 5.  `calcMode`：控制动画的运动速率的变化，`discrete` | `linear` | `paced` | `spline` 四个属性可选
 > 6.  `mpath`：指定一个外部定义的路径
 
-![眼睛动画](https://user-gold-cdn.xitu.io/2018/2/22/161be1c4cccfb106?w=354&h=282&f=gif&s=62795)
+![眼睛动画](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be1c4cccfb106~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=354&h=282&f=gif&s=62795)
 
 ### 步骤 7 - 将不同部位的动画组合到一起
 
 *   眼睛的动画是从嘴巴旋转完成开始，到嘴巴变形完成结束，因此和嘴巴的动画一样，设置了四个对应的关键时间点。
 *   为了让衔接更顺畅，眼睛的动画开始比嘴巴变形开始稍微提前了一点点。
 
-![最终效果](https://user-gold-cdn.xitu.io/2018/2/22/161be1d04dfd4f3a?w=354&h=282&f=gif&s=101961)
+![最终效果](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/22/161be1d04dfd4f3a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=354&h=282&f=gif&s=101961)
 
 Bingo！小功告成！[查看 DEMO](http://jdc.jd.com/demo/simba/loading/index.html)
 
@@ -197,7 +197,7 @@ Bingo！小功告成！[查看 DEMO](http://jdc.jd.com/demo/simba/loading/index.
 
 除了微软系浏览器 及 Opera Mini 外，其他主流浏览器均支持 SMIL。
 
-![SMIL CAN I USE](https://user-gold-cdn.xitu.io/2018/3/14/1622414dfb24f7ff?w=1200&h=257&f=jpeg&s=49621)
+![SMIL CAN I USE](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/3/14/1622414dfb24f7ff~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1200&h=257&f=jpeg&s=49621)
 
 _（数据来源：[caniuse.com](https://caniuse.com/#search=SMIL)，截至 2018 年 3 月 14 日）_
 

@@ -40,7 +40,7 @@ index 8f67810..d297f2e 100644
 
 当我们运行 npm test 的时候，会先自动执行 pretest 里面的 lint，实际输出如下：
 
-![](https://user-gold-cdn.xitu.io/2017/11/29/160052621691a0b7?w=846&h=848&f=png&s=103472)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/29/160052621691a0b7~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=846&h=848&f=png&s=103472)
 
 ## 增加覆盖率收集
 
@@ -93,7 +93,7 @@ index 8f67810..d297f2e 100644
 
 改完之后，我们可以直接运行 npm run cover，运行的详细截图如下：
 
-![](https://user-gold-cdn.xitu.io/2017/11/29/16005264d5d3aef6?w=921&h=1112&f=png&s=147056)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/29/16005264d5d3aef6~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=921&h=1112&f=png&s=147056)
 
 > **TIP#7**：到目前为止，我们的工作流中已经包含代码检查、测试运行、覆盖率收集、覆盖率查看等功能，你是不是可以用来改进下自己的工作流呢？
 

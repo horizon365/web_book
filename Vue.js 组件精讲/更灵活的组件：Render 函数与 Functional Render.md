@@ -6,7 +6,7 @@ Vue.js 2.x 与 Vue.js 1.x 最大的区别就在于 2.x 使用了 Virtual DOM（�
 
 与 DOM 操作相比，Virtual DOM 是基于 JavaScript 计算的，所以开销会小很多。下图演示了 Virtual DOM 运行的过程：
 
-![](https://user-gold-cdn.xitu.io/2018/11/13/1670bc4c26b9c667?w=1964&h=636&f=png&s=105521)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/11/13/1670bc4c26b9c667~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1964&h=636&f=png&s=105521)
 
 正常的 DOM 节点在 HTML 中是这样的：
 
@@ -227,7 +227,7 @@ export default {
 
 深度克隆 slot 并非 Vue.js 内置方法，也没有得到推荐，属于黑科技，在一些特殊的场景才会使用到，正常业务几乎是用不到的。比如 iView 组件库的穿梭框组件 Transfer，就用到了这种方法：
 
-![](https://user-gold-cdn.xitu.io/2018/11/13/1670bc4f017b9bf6?w=1246&h=654&f=png&s=108936)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/11/13/1670bc4f017b9bf6~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1246&h=654&f=png&s=108936)
 
 它的使用方法是：
 

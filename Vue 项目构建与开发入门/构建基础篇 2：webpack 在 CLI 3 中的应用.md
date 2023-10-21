@@ -10,7 +10,7 @@ webpack 作为目前最流行的项目打包工具，被广泛使用于项目的
 
 如果你使用过 vue-cli 2.x，那么你应该了解其构建出的目录会包含相应的 webpack 配置文件，但是在 vue-cli 3.x 中你却见不到一份关于 webpack 的配置文件，难道 3.x 抛弃了 webpack？其实不然，3.x 提供了一种开箱即用的模式，即你无需配置 webpack 就可以运行项目，并且它提供了一个 vue.config.js 文件来满足开发者对其封装的 webpack 默认配置的修改。如图：
 
-![](https://user-gold-cdn.xitu.io/2018/7/22/164c05d8ad965059?w=797&h=584&f=png&s=32393)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/22/164c05d8ad965059~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=797&h=584&f=png&s=32393)
 
 ### 2\. vue.config.js 的配置
 
@@ -134,7 +134,7 @@ module.exports = {
 
 关于 webpack-chain 的使用可以参考其 github 官方地址：[https://github.com/mozilla-neutrino/webpack-chain](https://github.com/mozilla-neutrino/webpack-chain)，它提供了操作类似 JavaScript Set 和 Map 的方式，以及一系列速记方法。
 
-![](https://user-gold-cdn.xitu.io/2018/10/30/166c58e690ddb43d?w=557&h=398&f=png&s=59904)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/30/166c58e690ddb43d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=557&h=398&f=png&s=59904)
 
 ### e. configureWebpack
 
@@ -211,7 +211,7 @@ module.exports = {
 
 如图所示：
 
-![](https://user-gold-cdn.xitu.io/2018/7/22/164c15d1f97432b5?w=924&h=392&f=png&s=60624)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/22/164c15d1f97432b5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=924&h=392&f=png&s=60624)
 
 最后我们从输出的内容中找到 plugins 数组，其包含了如下插件（配置项已经省略，增加了定义插件的代码）：
 

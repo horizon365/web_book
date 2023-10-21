@@ -8,11 +8,11 @@
 
 比如，我们在项目中执行：`npm run | less`，得到如下结果，注意截图左下方的红框，按空格能翻页：
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bcdae64f00ea?w=1094&h=715&f=png&s=101307)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bcdae64f00ea~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1094&h=715&f=png&s=101307)
 
 在这个结果里面，我们可以进行类似于 Vim 中的搜索，先按 `/` 进入搜索模式，然后输入 `markdown`，搜索结果如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bcdd6b736441?w=1100&h=399&f=png&s=59941)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bcdd6b736441~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1100&h=399&f=png&s=59941)
 
 ## 把 npm completion 集成到 shell 中
 
@@ -61,17 +61,17 @@ echo "[ -f ~/.npm-completion.bash ] && source ~/.npm-completion.bash;" >> ~/.zsh
 
 ### 1\. 在 npm install 时自动根据历史安装过的包给出补全建议
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bce81ef5dac6?w=1267&h=249&f=png&s=65352)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bce81ef5dac6~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1267&h=249&f=png&s=65352)
 
 ### 2\. 在 npm uninstall 时候根据 package.json 里面的声明给出补全建议
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bcec1c11549f?w=1263&h=114&f=png&s=26712)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bcec1c11549f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1263&h=114&f=png&s=26712)
 
 ### 3\. 在 npm run 时补全建议中列出命令细节
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bcf08dc06346?w=1256&h=331&f=png&s=78999)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bcf08dc06346~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1256&h=331&f=png&s=78999)
 
-![](https://user-gold-cdn.xitu.io/2017/12/3/1601bcf1e3a37f16?w=1263&h=222&f=png&s=49982)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/3/1601bcf1e3a37f16~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1263&h=222&f=png&s=49982)
 
 看到这里，是不是心痒痒？具体的安装方法参照官方 [README.md](https://github.com/lukechilds/zsh-better-npm-completion) 文件就好，我就不在这里啰嗦了。
 

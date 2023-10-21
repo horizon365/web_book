@@ -158,7 +158,7 @@
 
 一般来说，组件可以有以下几种关系：
 
-![组件关系](https://user-gold-cdn.xitu.io/2018/10/18/166864d066bbcf69?w=790&h=632&f=png&s=36436)
+![组件关系](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/18/166864d066bbcf69~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=790&h=632&f=png&s=36436)
 
 A 和 B、B 和 C、B 和 D 都是父子关系，C 和 D 是兄弟关系，A 和 C 是隔代关系（可能隔多代）。组件间经常会通信，Vue.js 内置的通信手段一般有两种：
 

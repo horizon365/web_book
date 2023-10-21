@@ -109,7 +109,7 @@ HTML 是一个有既定标签标准的 XML 格式，标签的名字、层级关�
 
 基于以上需求，浏览器就需要把 HTML 转变成 DOM，HTML 是一棵树，DOM 也是一棵树。对 DOM 的理解，可以暂时先抛开浏览器的内部因素，先从 JS 着手，即可以认为 DOM 就是 JS 能识别的 HTML 结构，一个普通的 JS 对象或者数组。
 
-![DOM图示](https://user-gold-cdn.xitu.io/2018/2/23/161c1050cf00d5bd?w=2102&h=1612&f=png&s=806057)
+![DOM图示](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/2/23/161c1050cf00d5bd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2102&h=1612&f=png&s=806057)
 
 ### 获取 DOM 节点
 

@@ -36,7 +36,7 @@ output: {
 
 这样就可以把分离出来的文件名称用 lodash 标识了，如下图：
 
-![dynamic-import](https://user-gold-cdn.xitu.io/2018/3/19/1623c0221f015c5d?w=1148&h=216&f=png&s=86642)
+![dynamic-import](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/3/19/1623c0221f015c5d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1148&h=216&f=png&s=86642)
 
 如果没有添加注释 `webpackChunkName: "lodash"` 以及 `output.chunkFilename` 配置，那么分离出来的文件名称会以简单数字的方式标识，不便于识别。
 

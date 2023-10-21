@@ -39,7 +39,7 @@ husky 的基本工作原理可以稍作解释下，翻看 husky 的 [package.jso
 
 然后再检查我们仓库的 `.git/hooks` 目录，会发现里面的钩子都被 husky 替换掉了，注意下图中三个红色框中的内容：
 
-![](https://user-gold-cdn.xitu.io/2017/12/14/16052956cce1a5c3?w=905&h=519&f=png&s=93983)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/14/16052956cce1a5c3~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=905&h=519&f=png&s=93983)
 
 ### 2\. 添加 npm script
 
@@ -58,7 +58,7 @@ husky 的基本工作原理可以稍作解释下，翻看 husky 的 [package.jso
 
 然后尝试提交代码：`git commit -am 'add husky hooks'`，能看到 pre-commit 钩子已经生效：
 
-![](https://user-gold-cdn.xitu.io/2017/12/14/16052959456b87ca?w=586&h=110&f=png&s=22843)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/14/16052959456b87ca~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=586&h=110&f=png&s=22843)
 
 ### 3\. 用 lint-staged 改进 pre-commit
 
@@ -94,7 +94,7 @@ husky 的基本工作原理可以稍作解释下，翻看 husky 的 [package.jso
 
 然后尝试提交这个文件：`git commit -m 'try to add eslint error' index.js`，结果如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/12/14/1605295bb21f26aa?w=733&h=503&f=png&s=90551)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/14/1605295bb21f26aa~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=733&h=503&f=png&s=90551)
 
 上图中带有 `Running Tasks` 字样的列表就是 lint-staged 根据当前要提交的文件和 package.json 中配置的检查命令去执行的动态输出。红色框里面提示 husky 的 pre-commit 钩子执行失败，提交也就没有成功。
 
@@ -102,7 +102,7 @@ husky 的基本工作原理可以稍作解释下，翻看 husky 的 [package.jso
 
 撤销掉有错误的修改，提交之后，我们往远程 push 新分支，结果如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/12/14/16052e6c6cba85ff?w=867&h=460&f=png&s=160857)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/14/16052e6c6cba85ff~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=867&h=460&f=png&s=160857)
 
 > 读过我其他文章的同学可能已经想到，本小节的内容部分和我早期的文章[《用 husky 和 lint-staged 构建超溜的代码检查工作流》](https://juejin.im/post/592615580ce463006bf19aa0)有部分内容是重叠的。
 

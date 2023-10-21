@@ -19,7 +19,7 @@ npm -v
 
 如果成功打印出版本号，说明你本地具备了 node 的运行环境，我们可以使用 npm 来安装管理项目的依赖，而如果没有或报错，则你需要去 [node 官网](https://nodejs.org/en/)进行 node 的下载及安装，如图：
 
-![](https://user-gold-cdn.xitu.io/2018/10/31/166c5eb2c6f04593?w=575&h=197&f=png&s=29269)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/31/166c5eb2c6f04593~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=575&h=197&f=png&s=29269)
 
 左边的版本是推荐安装的稳定版本，也就是目前已经被正式列入标准的版本，而右边的版本是当前最新的版本，该版本包含了一些新的特性，还未被完全列入标准，可能以后会有所变动。这里建议大家安装最新的 node 稳定版进行开发。
 
@@ -70,7 +70,7 @@ vue create my-project
 
 执行完上述命令后，会出现一系列的选择项，我们可以根据自己的需要进行选择，流程图如下：
 
-![](https://user-gold-cdn.xitu.io/2018/6/18/16412343fab2e351?w=980&h=634&f=png&s=57073)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/6/18/16412343fab2e351~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=980&h=634&f=png&s=57073)
 
 如果你只想构建一个基础的 Vue 项目，那么使用 `Babel`、`Router`、`Vuex`、`CSS Pre-processors` 就足够了，最后选择你喜欢的包管理工具 npm or yarn。
 
@@ -94,7 +94,7 @@ npm run serve
 
 成功后打开浏览器地址：[http://localhost:8080/](http://localhost:8080/) 可以看到如下界面：
 
-![](https://user-gold-cdn.xitu.io/2018/6/18/164125dcfb6fa7d5)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/6/18/164125dcfb6fa7d5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png)
 
 #### d. 目录结构
 
@@ -134,11 +134,11 @@ vue ui
 
 之后浏览器会自动打开本地 `8000` 端口，页面如下：
 
-![](https://user-gold-cdn.xitu.io/2018/6/26/1643ca037f818a81?w=805&h=396&f=png&s=18543)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/6/26/1643ca037f818a81~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=805&h=396&f=png&s=18543)
 
 如果你还没有任何项目，那么可以点击创建或者直接导入现有的项目。创建项目和我们使用命令行的步骤基本相同，完全可视化操作，一定程度上降低了构建和使用的难度。项目创建或导入成功后你便可以进入项目进行可视化管理了。
 
-![](https://user-gold-cdn.xitu.io/2018/6/26/1643ca8799bb4491?w=819&h=397&f=png&s=71058)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/6/26/1643ca8799bb4491~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=819&h=397&f=png&s=71058)
 
 在整个管理界面中，我们可以为自己的项目安装 CLI 提供的插件，比如安装 `@vue/cli-plugin-babel` 插件，同时我们也可以配置相应插件的配置项，进行代码的编译、热更新、检查等。详细的操作大家可以自己进行手动尝试，相信你会发现意想不到的惊喜。
 
@@ -146,7 +146,7 @@ vue ui
 
 上方我们用 vue-cli 成功生成了一个最基础的 Vue 项目，麻雀虽小，五脏俱全，但是想要让麻雀飞起来，我们还要不断的给它进行拓展训练，那么我们还需要了解什么呢？
 
-![](https://user-gold-cdn.xitu.io/2018/9/20/165f2c3a9c4f640c?w=665&h=251&f=png&s=21583)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/20/165f2c3a9c4f640c~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=665&h=251&f=png&s=21583)
 
 以上这些内容（包含但不限于）将会在本小册的接下来几章进行详细的讲解，你准备好了吗？
 

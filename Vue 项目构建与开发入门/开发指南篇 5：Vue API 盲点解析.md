@@ -19,7 +19,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 来开启这一功能，该 API（2.2.0 新增）功能只适用于开发模式和支持 `performance.mark` API 的浏览器上，开启后我们可以下载 [Vue Performance Devtool](https://chrome.google.com/webstore/search/vue%20performance%20devtool) 这一 chrome 插件来看查看各个组件的加载情况，如图：
 
-![](https://user-gold-cdn.xitu.io/2018/8/7/165100a377b1bac9?w=1094&h=150&f=png&s=42871)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/7/165100a377b1bac9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1094&h=150&f=png&s=42871)
 
 从中我们可以清晰的看到页面组件在每个阶段的耗时情况，而针对耗时比较久的组件，我们便可以对其进行相应优化。
 

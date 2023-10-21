@@ -55,7 +55,7 @@ npm i onchange -D
 
 onchange 有个不太醒目的特性是，文件系统发生变化之后，他在运行指定命令之前输出哪个文件发生了哪些变化，如下图红框中的内容：
 
-![](https://user-gold-cdn.xitu.io/2017/12/12/160481d04f4e2aa5?w=951&h=533&f=png&s=77037)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/12/160481d04f4e2aa5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=951&h=533&f=png&s=77037)
 
 读到这里，有没有觉得 onchange 可以和 gulp、grunt 的 watch 一样强大。
 

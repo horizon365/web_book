@@ -42,7 +42,7 @@ npm run start
 
 webpack-dev-server 默认使用 8080 端口，如果你使用了 html-webpack-plugin 来构建 HTML 文件，并且有一个 index.html 的构建结果，那么直接访问 http://localhost:8080/ 就可以看到 index.html 页面了。如果没有 HTML 文件的话，那么 webpack-dev-server 会生成一个展示静态资源列表的页面。
 
-![webpack-dev-server 资源列表](https://user-gold-cdn.xitu.io/2018/3/19/1623bff0f463e073?w=1822&h=284&f=png&s=42237)
+![webpack-dev-server 资源列表](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/3/19/1623bff0f463e073~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1822&h=284&f=png&s=42237)
 
 ## webpack-dev-server 的配置
 

@@ -12,15 +12,15 @@ Lazy-Load，翻译过来是“懒加载”。它是针对图片加载时机的�
 
 现在我们打开掘金首页：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/16642f37c7f20143?w=1424&h=1092&f=png&s=251118)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/16642f37c7f20143~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1424&h=1092&f=png&s=251118)
 
 大家留意一栏文章右侧可能会出现的图片，这里咱们给个特写：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/16642f57149017c9?w=202&h=662&f=png&s=59534)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/16642f57149017c9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=202&h=662&f=png&s=59534)
 
 大家现在以尽可能快的速度，疯狂向下拉动页面。发现什么？是不是发现我们图示的这个图片的位置，会出现闪动——有时候我们明明已经拉到目标位置了，文字也呈现完毕了，图片却慢半拍才显示出来。这是因为，掘金首页也采用了懒加载策略。当我们的页面并未滚动至包含图片的 div 元素所在的位置时，它的样式是这样的：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/16642f9403b5f320?w=1312&h=142&f=png&s=62803)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/16642f9403b5f320~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1312&h=142&f=png&s=62803)
 
 我们把代码提出来看一下：
 
@@ -28,7 +28,7 @@ Lazy-Load，翻译过来是“懒加载”。它是针对图片加载时机的�
 <div data-v-b2db8566="" 
     data-v-009ea7bb="" 
     data-v-6b46a625=""   
-    data-src="https://user-gold-cdn.xitu.io/2018/9/27/16619f449ee24252?imageView2/1/w/120/h/120/q/85/format/webp/interlace/1"    
+    data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/27/16619f449ee24252~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?imageView2/1/w/120/h/120/q/85/format/webp/interlace/1"    
     class="lazy thumb thumb"    
     style="background-image: none; background-size: cover;">  
 </div>
@@ -39,18 +39,18 @@ Lazy-Load，翻译过来是“懒加载”。它是针对图片加载时机的�
 
 这个“占位”的概念，在这个例子里或许体现得不够直观。最直观的应该是淘宝首页的 HTML Preview 效果：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/1664307daf51a16e?w=2290&h=972&f=png&s=125909)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/1664307daf51a16e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2290&h=972&f=png&s=125909)
 
 我们看到，这个还没来得及被图片填充完全的网页，是用大大小小的空 div 元素来占位的。掘金首页也是如此。
 
 一旦我们通过滚动使得这个 div 出现在了可见范围内，那么 div 元素的内容就会发生变化，呈现如下的内容：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/1664300e3f14b7c9?w=1198&h=252&f=png&s=109226)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/1664300e3f14b7c9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1198&h=252&f=png&s=109226)
 
 我们给 style 一个特写：
 
 ```
-style="background-image: url(&quot;https://user-gold-cdn.xitu.io/2018/9/27/16619f449ee24252?imageView2/1/w/120/h/120/q/85/format/webp/interlace/1&quot;); background-size: cover;"
+style="background-image: url(&quot;https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/27/16619f449ee24252~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?imageView2/1/w/120/h/120/q/85/format/webp/interlace/1&quot;); background-size: cover;"
 
 ```
 
@@ -64,7 +64,7 @@ style="background-image: url(&quot;https://user-gold-cdn.xitu.io/2018/9/27/16619
 
 首先新建一个空项目，目录结构如下：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/1664322fcf90be3e?w=466&h=116&f=png&s=14252)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/1664322fcf90be3e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=466&h=116&f=png&s=14252)
 
 大家可以往 images 文件夹里塞入各种各样自己喜欢的图片。
 
@@ -145,7 +145,7 @@ const viewHeight = window.innerHeight || document.documentElement.clientHeight
 
 其中需要引起我们注意的就是 left、top、right 和 bottom，它们对应到元素上是这样的：
 
-![](https://user-gold-cdn.xitu.io/2018/10/5/1664360c6ceda200?w=500&h=500&f=png&s=25422)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/5/1664360c6ceda200~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=500&h=500&f=png&s=25422)
 
 可以看出，top 属性代表了元素距离可视区域顶部的高度，正好可以为我们所用！
 

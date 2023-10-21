@@ -234,7 +234,7 @@ myChart.setOption(option)
 
 ```
 
-![ECharts 简单散点图示例](https://user-gold-cdn.xitu.io/2018/7/21/164bb2ce33f4535f?w=600&h=400&f=png&s=17605)
+![ECharts 简单散点图示例](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bb2ce33f4535f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=17605)
 
 ## 11.3 使用 ECharts 实现散点图绘制
 
@@ -255,7 +255,7 @@ myChart.setOption(option)
 
 于是便可以得到一个初步的可视化图表。
 
-![身高图表 - 1](https://user-gold-cdn.xitu.io/2018/7/21/164bbb10d771b392?w=600&h=400&f=png&s=22205)
+![身高图表 - 1](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bbb10d771b392~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=22205)
 
 ### 11.3.1 优化图表
 
@@ -281,7 +281,7 @@ const option = {
 
 ```
 
-![身高图表 - 2](https://user-gold-cdn.xitu.io/2018/7/21/164bbb10d7680342?w=600&h=400&f=png&s=20053)
+![身高图表 - 2](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bbb10d7680342~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=20053)
 
 非常好！接下来让我们继续对图表进行优化，因为我们前面并没有在图表中加入任何提示信息，所以在图表上并没有显示任何关于数据内容的文本说明。
 
@@ -310,7 +310,7 @@ const option = {
 
 `name` 属性对应的是指定坐标轴所需要显示的名字（即数据名称），`nameLocation` 为名字的显示方位。详细请参考 [ECharts 配置项文档](http://echarts.baidu.com/option.html#xAxis.nameLocation)。
 
-![身高图表 - 3](https://user-gold-cdn.xitu.io/2018/7/21/164bbb10d7986aaa?w=600&h=400&f=png&s=21051)
+![身高图表 - 3](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bbb10d7986aaa~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=21051)
 
 最后一个需要优化的东西便是我们希望能够在图表上体现出男生和女生之间的身高差异，这个需要将图表中的数据散点体现出性别的差异。一般来说我们会使用 ECharts 中的图例组件（`legend`）来表示不同的数据分组，但比较遗憾的是目前 ECharts 并不支持直接使用 `dataset` 中的某一个数据进行直接分组（截至 ECharts 版本 4.1.0）。
 
@@ -337,7 +337,7 @@ const option = {
 
 ```
 
-![身高图表 - 4](https://user-gold-cdn.xitu.io/2018/7/21/164bbb10d784e7f9?w=600&h=400&f=png&s=22908)
+![身高图表 - 4](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bbb10d784e7f9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=22908)
 
 ## 11.4 折线图 Lines
 
@@ -359,7 +359,7 @@ const option = {
 
 该公式的推演过程如下。
 
-![random-range](https://user-gold-cdn.xitu.io/2018/7/21/164bd31c470076a9?w=527&h=388&f=png&s=27488)
+![random-range](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bd31c470076a9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=527&h=388&f=png&s=27488)
 
 使用 JavaScript 实现便为如下代码。
 
@@ -438,7 +438,7 @@ const option = {
 
 ```
 
-![line-chart-1](https://user-gold-cdn.xitu.io/2018/7/21/164bd31c4d3e92ad?w=600&h=400&f=png&s=31407)
+![line-chart-1](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bd31c4d3e92ad~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=31407)
 
 ### 11.4.3 优化折线图
 
@@ -460,7 +460,7 @@ const option = {
 
 ```
 
-![line-chart-2](https://user-gold-cdn.xitu.io/2018/7/21/164bd45e519a9f82?w=600&h=400&f=png&s=31274)
+![line-chart-2](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/21/164bd45e519a9f82~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=31274)
 
 ## 小结
 

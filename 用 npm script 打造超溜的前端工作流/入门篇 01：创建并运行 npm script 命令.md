@@ -87,7 +87,7 @@ npm init -f
 
 和 test 类似，start 也是 npm 内置支持的命令，但是需要先在 scripts 字段中声明该脚本的实际内容，如果没声明就执行 npm start，会直接报错。如下图所示：
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff0b3414194277?w=805&h=112&f=png&s=26451)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff0b3414194277~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=805&h=112&f=png&s=26451)
 
 那么，npm 是如何管理和执行各种 scripts 的呢？作为 npm 内置的核心功能之一，npm run 实际上是 npm run-script 命令的简写。当我们运行 npm run xxx 时，基本步骤如下：
 
@@ -166,7 +166,7 @@ npm install eslint -D
 
 在命令行提示中选择 Answer questions about your style，如下图回答几个问题，答案可以根据自己的偏好：
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff0b3ab69913bd?w=998&h=264&f=png&s=75959)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff0b3ab69913bd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=998&h=264&f=png&s=75959)
 
 回车后根目录下就有了 .eslintrc.js 配置文件：
 
@@ -207,7 +207,7 @@ module.exports = {
 
 执行 npm run eslint，可以看到，按照官方推荐规则代码里有 3 处不符合规范的地方：
 
-![](https://user-gold-cdn.xitu.io/2017/11/25/15ff0b3dd4c03103?w=783&h=271&f=png&s=49211)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/25/15ff0b3dd4c03103~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=783&h=271&f=png&s=49211)
 
 * * *
 

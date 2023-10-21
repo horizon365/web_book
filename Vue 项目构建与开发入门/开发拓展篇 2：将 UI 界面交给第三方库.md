@@ -112,7 +112,7 @@ export default {
 
 我们通过引入组件的方式将导航组 `Tabbar`、`TabbarItem` 件引入并注册到页面中，这样通过 Vux 文档中的介绍我们便可以对相应组件进行配置。呈现效果如下：
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165bd384922ca66c?w=347&h=46&f=png&s=4883)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165bd384922ca66c~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=347&h=46&f=png&s=4883)
 
 需要注意的是我们需要在 App.vue 中引入 Vux 的 `reset` 样式 less 文件以解决样式呈现不统一的问题。关于其他 Vux 组件的配置可以参考官方文档：[组件](https://doc.vux.li/zh-CN/components/actionsheet.html)
 
@@ -140,19 +140,19 @@ export default {
 
 > `Iconfont` 是阿里妈妈 `MUX` 倾力打造的矢量图标管理、交流平台。 设计师将图标上传到 Iconfont 平台，用户可以自定义下载多种格式的 icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165be177f5aae7ae?w=1170&h=497&f=png&s=88853)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165be177f5aae7ae~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1170&h=497&f=png&s=88853)
 
 在 Iconfont 首页，我们可以点击图标库来进行图标的搜索。这里我们可以点击官方图标库后选择 Ant Design 官方图标库进入。
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165be30ebede83c8?w=1150&h=508&f=png&s=98564)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165be30ebede83c8~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1150&h=508&f=png&s=98564)
 
 进入对应的图标库后，我们可以选择对应的图标加入购物车，同时购物车会更新添加后的图标数量。
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165be34e414e5849?w=1178&h=386&f=png&s=104567)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165be34e414e5849~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1178&h=386&f=png&s=104567)
 
 选择完成后，为了使图标便于今后管理，我们可以新建一个项目并将图标移入项目中。在项目中，我们便可以进行图标的添加、删除和下载等操作（需要登录）。
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165be3a4e7cf82e4?w=1167&h=528&f=png&s=139524)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165be3a4e7cf82e4~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1167&h=528&f=png&s=139524)
 
 这里我们采用将图标下载到本地的方式进行使用，当然你也可以使用在线链接，但这会受到网络的影响。
 
@@ -196,7 +196,7 @@ import './assets/iconfont/iconfont.css'
 
 按照 Vux 导航文档添加名称为 `icon` 的 `solt` 插槽后，我们还需要在标签上添加对应图标的 class 名称，比如 `iconfont icon-bulb`，最终我们的展示效果如图所示：
 
-![](https://user-gold-cdn.xitu.io/2018/9/9/165be50abd042347?w=346&h=51&f=png&s=5571)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/9/9/165be50abd042347~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=346&h=51&f=png&s=5571)
 
 ### 其他图标库
 

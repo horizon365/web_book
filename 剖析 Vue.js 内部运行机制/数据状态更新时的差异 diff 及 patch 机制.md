@@ -115,11 +115,11 @@ function removeVnodes (parentElm, vnodes, startIdx, endIdx) {
 
 首先说一下 `patch` 的核心 diff 算法，我们用 diff 算法可以比对出两颗树的「差异」，我们来看一下，假设我们现在有如下两颗树，它们分别是新老 VNode 节点，这时候到了 `patch` 的过程，我们需要将他们进行比对。
 
-![](https://user-gold-cdn.xitu.io/2017/12/28/1609be691ed64525?w=706&h=295&f=jpeg&s=18300)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/28/1609be691ed64525~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=706&h=295&f=jpeg&s=18300)
 
 diff 算法是通过同层的树节点进行比较而非对树进行逐层搜索遍历的方式，所以时间复杂度只有 O(n)，是一种相当高效的算法，如下图。
 
-![](https://user-gold-cdn.xitu.io/2017/12/28/1609be700a80c98a?w=628&h=214&f=png&s=20221)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/28/1609be700a80c98a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=628&h=214&f=png&s=20221)
 
 。
 
@@ -367,7 +367,7 @@ function updateChildren (parentElm, oldCh, newCh) {
 
 首先我们定义 `oldStartIdx`、`newStartIdx`、`oldEndIdx` 以及 `newEndIdx` 分别是新老两个 VNode 的两边的索引，同时 `oldStartVnode`、`newStartVnode`、`oldEndVnode` 以及 `newEndVnode` 分别指向这几个索引对应的 VNode 节点。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b707df4902029?w=885&h=397&f=jpeg&s=29388)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b707df4902029~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=885&h=397&f=jpeg&s=29388)
 
 接下来是一个 `while` 循环，在这过程中，`oldStartIdx`、`newStartIdx`、`oldEndIdx` 以及 `newEndIdx` 会逐渐向中间靠拢。
 
@@ -376,7 +376,7 @@ while (oldStartIdx <= oldEndIdx && newStartIdx <= newEndIdx)
 
 ```
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b70ecf5967f0a?w=864&h=428&f=png&s=30471)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b70ecf5967f0a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=864&h=428&f=png&s=30471)
 
 首先当 `oldStartVnode` 或者 `oldEndVnode` 不存在的时候，`oldStartIdx` 与 `oldEndIdx` 继续向中间靠拢，并更新对应的 `oldStartVnode` 与 `oldEndVnode` 的指向（注：下面讲到的 `oldStartIdx`、`newStartIdx`、`oldEndIdx` 以及 `newEndIdx` 移动都会伴随着 `oldStartVnode`、`newStartVnode`、`oldEndVnode` 以及 `newEndVnode` 的指向的变化，之后的部分只会讲 `Idx` 的移动）。
 
@@ -416,21 +416,21 @@ if (!oldStartVnode) {
 
 首先是 `oldStartVnode` 与 `newStartVnode` 符合 `sameVnode` 时，说明老 VNode 节点的头部与新 VNode 节点的头部是相同的 VNode 节点，直接进行 `patchVnode`，同时 `oldStartIdx` 与 `newStartIdx` 向后移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b71f5a48631f4?w=618&h=251&f=png&s=19993)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b71f5a48631f4~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=618&h=251&f=png&s=19993)
 
 其次是 `oldEndVnode` 与 `newEndVnode` 符合 `sameVnode`，也就是两个 VNode 的结尾是相同的 VNode，同样进行 `patchVnode` 操作并将 `oldEndVnode` 与 `newEndVnode` 向前移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b7228b9ecb23a?w=753&h=235&f=png&s=20727)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b7228b9ecb23a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=753&h=235&f=png&s=20727)
 
 接下来是两种交叉的情况。
 
 先是 `oldStartVnode` 与 `newEndVnode` 符合 `sameVnode` 的时候，也就是老 VNode 节点的头部与新 VNode 节点的尾部是同一节点的时候，将 `oldStartVnode.elm` 这个节点直接移动到 `oldEndVnode.elm` 这个节点的后面即可。然后 `oldStartIdx` 向后移动一位，`newEndIdx` 向前移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b723af0fd706a?w=1540&h=776&f=png&s=105982)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b723af0fd706a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1540&h=776&f=png&s=105982)
 
 同理，`oldEndVnode` 与 `newStartVnode` 符合 `sameVnode` 时，也就是老 VNode 节点的尾部与新 VNode 节点的头部是同一节点的时候，将 `oldEndVnode.elm` 插入到 `oldStartVnode.elm` 前面。同样的，`oldEndIdx` 向前移动一位，`newStartIdx` 向后移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b72ae720954cd?w=810&h=432&f=png&s=42179)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b72ae720954cd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=810&h=432&f=png&s=42179)
 
 最后是当以上情况都不符合的时候，这种情况怎么处理呢？
 
@@ -504,7 +504,7 @@ if (!idxInOld) {
 
 否则如果找到了节点，同时它符合 `sameVnode`，则将这两个节点进行 `patchVnode`，将该位置的老节点赋值 undefined（之后如果还有新节点与该节点key相同可以检测出来提示已有重复的 key ），同时将 `newStartVnode.elm` 插入到 `oldStartVnode.elm` 的前面。同理，`newStartIdx` 往后移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b73aa8f758342?w=750&h=373&f=png&s=38696)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b73aa8f758342~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=750&h=373&f=png&s=38696)
 
 ```
 else {
@@ -521,7 +521,7 @@ else {
 
 如果不符合 `sameVnode`，只能创建一个新节点插入到 `parentElm` 的子节点中，`newStartIdx` 往后移动一位。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b73f50ed43932?w=927&h=462&f=png&s=44122)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b73f50ed43932~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=927&h=462&f=png&s=44122)
 
 ```
 else {
@@ -533,11 +533,11 @@ else {
 
 最后一步就很容易啦，当 `while` 循环结束以后，如果 `oldStartIdx > oldEndIdx`，说明老节点比对完了，但是新节点还有多的，需要将新节点插入到真实 DOM 中去，调用 `addVnodes` 将这些节点插入即可。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b7457cae26687?w=784&h=373&f=png&s=32202)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b7457cae26687~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=784&h=373&f=png&s=32202)
 
 同理，如果满足 `newStartIdx > newEndIdx` 条件，说明新节点比对完了，老节点还有多，将这些无用的老节点通过 `removeVnodes` 批量删除即可。
 
-![](https://user-gold-cdn.xitu.io/2018/1/2/160b744a2c07257d?w=836&h=367&f=png&s=34864)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/2/160b744a2c07257d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=836&h=367&f=png&s=34864)
 
 ```
 if (oldStartIdx > oldEndIdx) {

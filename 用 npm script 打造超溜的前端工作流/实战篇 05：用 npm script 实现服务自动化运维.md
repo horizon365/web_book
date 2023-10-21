@@ -20,7 +20,7 @@
 
 这 3 条命令遵循 [semver](https://semver.org) 的版本号规范来方便你管理版本，patch 是更新补丁版本，minor 是更新小版本，major 是更新大版本。在必要的时候，可以通过运行 npm run version:patch 来升补丁版本，运行输出如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e6e3d85b6cd?w=910&h=943&f=png&s=144886)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e6e3d85b6cd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=910&h=943&f=png&s=144886)
 
 如果要求所有的版本号不超过 10，即 0.0.9 的下个版本是 0.1.0 而不是 0.0.10，可以编写简单的 shell 脚本来实现（**注意这样会破坏 semver 的约定**），具体步骤如下：
 
@@ -67,7 +67,7 @@ npm run release:$release
 
 在必要的时候执行 npm run bump，输出示例如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e70eb4a0193?w=1001&h=1143&f=png&s=165735)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e70eb4a0193~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1001&h=1143&f=png&s=165735)
 
 ## 使用 npm script 进行服务进程和日志管理
 
@@ -187,7 +187,7 @@ npm i pm2 -D
 
 每次需要部署服务时只需要运行 npm run deploy 就行了，运行成功输出如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e77ad30626c?w=1146&h=186&f=png&s=42916)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e77ad30626c~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1146&h=186&f=png&s=42916)
 
 ### 5\. 配置日志查看命令
 
@@ -201,7 +201,7 @@ npm i pm2 -D
 
 需要查看日志时，直接运行 npm run logs，运行输入如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/18/16066e7b80b6d828?w=1271&h=354&f=png&s=80687)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/18/16066e7b80b6d828~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1271&h=354&f=png&s=80687)
 
 当然如果你有更复杂的日志查看需求，直接用 cat、grep 之类的命令好了。
 

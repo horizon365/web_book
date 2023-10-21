@@ -16,7 +16,7 @@
 
 正确的配置环境首先需要我们认识不同环境配置之间的关系，如图所示：
 
-![](https://user-gold-cdn.xitu.io/2018/11/25/16749778e85b5370?w=356&h=318&f=png&s=24190)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/11/25/16749778e85b5370~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=356&h=318&f=png&s=24190)
 
 我们从上图中可以了解到每一个环境其实有其不同的配置，同时它们也存在着交集部分，交集便是它们都共有的配置项，那么在 Vue 中我们应该如何处理呢？
 
@@ -145,7 +145,7 @@ NAME=vue
 
 可见注入时过滤调了非 `VUE_APP_` 开头的变量，其中多出的 `BASE_URL` 为你在 vue.config.js 设置的值，默认为 /，其在环境配置文件中设置无效。
 
-![](https://user-gold-cdn.xitu.io/2018/11/25/167497acd942516e?w=544&h=308&f=png&s=32493)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/11/25/167497acd942516e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=544&h=308&f=png&s=32493)
 
 ### 3\. 额外配置
 
@@ -256,7 +256,7 @@ new Vue({
 
 vConsole 是一款用于移动网页的轻量级，可扩展的前端开发工具，可以看作是移动端浏览器的控制台，如图：
 
-![](https://user-gold-cdn.xitu.io/2018/7/25/164d2204ddfd1384?w=320&h=568&f=png&s=57903)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/25/164d2204ddfd1384~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=320&h=568&f=png&s=57903)
 
 另外我们还可以使用配置中的 BASE\_URL 来设置路由的 base 参数：
 

@@ -136,7 +136,7 @@ myChart.setOption(option)
 
 ```
 
-![bar-chart-1](https://user-gold-cdn.xitu.io/2018/7/28/164df2fd8440161a?w=600&h=400&f=png&s=16131)
+![bar-chart-1](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/28/164df2fd8440161a~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=16131)
 
 由此可见，我们在使用 ECharts 的时候，只需要关注如何组织数据、如何选择可视化图表类型便可以在一定程度上得到所需要的数据图表。
 
@@ -171,7 +171,7 @@ const option = {
 
 ```
 
-![bar-chart-2](https://user-gold-cdn.xitu.io/2018/7/30/164eb68364b10877?w=600&h=400&f=png&s=18792)
+![bar-chart-2](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb68364b10877~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=18792)
 
 **添加平均值辅助线**
 
@@ -205,7 +205,7 @@ const option = {
 
 ```
 
-![bar-chart-3](https://user-gold-cdn.xitu.io/2018/7/30/164eb683669a5eb4?w=600&h=400&f=png&s=20252)
+![bar-chart-3](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb683669a5eb4~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=20252)
 
 可以看到已经有一条横向的虚线表示了该柱状图数据序列的平均值，但因为这条线的颜色与柱状图的颜色相同，视觉效果上并不如意。所以我们可以为这条线加一些样式，使其与柱状图相区分开来。
 
@@ -241,7 +241,7 @@ const option = {
 
 ```
 
-![bar-chart-4](https://user-gold-cdn.xitu.io/2018/7/30/164eb6837de1ddff?w=600&h=400&f=png&s=19751)
+![bar-chart-4](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb6837de1ddff~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=19751)
 
 ### 12.1.4 绘制多个数据系列
 
@@ -305,7 +305,7 @@ const option = {
 
 ```
 
-![bar-chart-5](https://user-gold-cdn.xitu.io/2018/7/30/164eb68368169972?w=600&h=400&f=png&s=23375)
+![bar-chart-5](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb68368169972~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=23375)
 
 为什么并没有看到另外一个柱状图？这是因为本科录取人数的数据范围在 1000 到 1500 之间，而本科率的范围则在 0 到 1 之间，而且量纲也相异。所以我们需要借助其他辅助手段对图表进行优化。
 
@@ -381,7 +381,7 @@ const option = {
 
 ```
 
-![bar-chart-6](https://user-gold-cdn.xitu.io/2018/7/30/164eb68377785366?w=600&h=400&f=png&s=30784)
+![bar-chart-6](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb68377785366~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=30784)
 
 ## 12.2 饼图
 
@@ -407,7 +407,7 @@ const option = {
 
 ```
 
-![pie-chart-1](https://user-gold-cdn.xitu.io/2018/8/3/164fda5368832041?w=600&h=400&f=png&s=18748)
+![pie-chart-1](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/3/164fda5368832041~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=18748)
 
 ### 12.2.2 添加数据标签
 
@@ -434,7 +434,7 @@ const option = {
 
 ```
 
-![pie-chart-2](https://user-gold-cdn.xitu.io/2018/8/3/164fda5368a0616f?w=600&h=400&f=png&s=26799)
+![pie-chart-2](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/3/164fda5368a0616f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=600&h=400&f=png&s=26799)
 
 ## 小结
 

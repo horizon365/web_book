@@ -6,7 +6,7 @@
 
 > 首先我们可以把多页应用理解为由多个单页构成的应用，而何谓多个单页呢？其实你可以把一个单页看成是一个 html 文件，那么多个单页便是多个 html 文件，多页应用便是由多个 html 组成的应用，如下图所示：
 
-![](https://user-gold-cdn.xitu.io/2018/7/30/164eb40e7ae7fb85?w=730&h=253&f=png&s=17448)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/7/30/164eb40e7ae7fb85~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=730&h=253&f=png&s=17448)
 
 既然多页应用拥有多个 html，那么同样其应该拥有多个独立的入口文件、组件、路由、vuex 等。没错，说简单一点就是**多页应用的每个单页都可以拥有单页应用 src 目录下的文件及功能**，我们来看一下一个基础多页应用的目录结构：
 
@@ -99,7 +99,7 @@ exports.getEntries = () => {
 
 ```
 
-![](https://user-gold-cdn.xitu.io/2018/10/30/166c0c419bc53201?w=665&h=236&f=png&s=31154)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/30/166c0c419bc53201~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=665&h=236&f=png&s=31154)
 
 上方我们使用了 [glob](https://github.com/isaacs/node-glob) 这一第三方模块读取所有 pages 文件夹下的入口文件，其需要进行安装：`yarn add glob --dev`
 
@@ -195,7 +195,7 @@ exports.htmlPlugin = configs => {
 
 ```
 
-![](https://user-gold-cdn.xitu.io/2018/10/30/166c0c888939ac36?w=668&h=327&f=png&s=41082)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/10/30/166c0c888939ac36~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=668&h=327&f=png&s=41082)
 
 以上我们仍然是使用 glob 读取所有模板文件，然后将其遍历并设置每个模板的 config，同时针对一些自定义配置和生产环境的配置进行了 merge 处理，其中自定义配置的功能我会在下节进行介绍，这里介绍一下生产环境下 `minify` 配置的作用：**将 html-minifier 的选项作为对象来缩小输出**。
 

@@ -79,7 +79,7 @@ exec('npm-run-all --parallel cover:serve cover:open');
 
 重新运行 npm run cover 命令，不出意外的话，基本功能是正常的，除了我们新加的绿色输出，如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/12/10/1603de95af9b2c41?w=1060&h=587&f=png&s=87226)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/10/1603de95af9b2c41~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1060&h=587&f=png&s=87226)
 
 以上，本小节完，这里只是简单展示了如何组织 Node.js 脚本并且让其与 npm script 关联起来，至于具体在脚本中做什么事情，请你自由发挥吧。
 

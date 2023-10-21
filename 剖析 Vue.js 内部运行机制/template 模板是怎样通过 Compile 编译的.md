@@ -4,7 +4,7 @@
 
 `compile` 编译可以分成 `parse`、`optimize` 与 `generate` 三个阶段，最终需要得到 render function。这部分内容不算 Vue.js 的响应式核心，只是用来编译的，笔者认为在精力有限的情况下不需要追究其全部的实现细节，能够把握如何解析的大致流程即可。
 
-![](https://user-gold-cdn.xitu.io/2017/12/19/1606ec3d306ab28f?w=824&h=496&f=png&s=37271)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/19/1606ec3d306ab28f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=824&h=496&f=png&s=37271)
 
 由于解析过程比较复杂，直接上代码可能会导致不了解这部分内容的同学一头雾水。所以笔者准备提供一个 template 的示例，通过这个示例的变化来看解析的过程。但是解析的过程及结果都是将最重要的部分抽离出来展示，希望能让读者更好地了解其核心部分的实现。
 
@@ -126,7 +126,7 @@ function advance (n) {
 
 举个例子，当我们把第一个 div 的头标签全部匹配完毕以后，我们需要将这部分除去，也就是向右移动 43 个字符。
 
-![](https://user-gold-cdn.xitu.io/2018/1/7/160d00562f38ab39?w=1086&h=199&f=png&s=20654)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/7/160d00562f38ab39~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1086&h=199&f=png&s=20654)
 
 调用 `advance` 函数
 
@@ -137,7 +137,7 @@ advance(43);
 
 得到结果
 
-![](https://user-gold-cdn.xitu.io/2018/1/7/160d0058331006a5?w=1096&h=198&f=png&s=22012)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/7/160d0058331006a5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1096&h=198&f=png&s=22012)
 
 ### parseHTML
 
@@ -244,7 +244,7 @@ let currentParent, root;
 
 ```
 
-![](https://user-gold-cdn.xitu.io/2018/1/7/160d0f34a5642ce8)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/7/160d0f34a5642ce8~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png)
 
 知道这个以后，我们优化一下 `parseHTML` ，在 `startTagOpen` 的 `if` 逻辑中加上新的处理。
 

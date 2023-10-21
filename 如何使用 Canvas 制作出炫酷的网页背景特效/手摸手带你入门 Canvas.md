@@ -25,7 +25,7 @@
 
 我们打开浏览器来看一下：
 
-![创建 Canvas 画布](https://user-gold-cdn.xitu.io/2017/11/21/15fddd0ac41789ce?w=1516&h=624&f=jpeg&s=67550)
+![创建 Canvas 画布](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fddd0ac41789ce~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1516&h=624&f=jpeg&s=67550)
 
 在上面的例子中页面上只有一个 Canvas，没有设置宽高，那么会自动创建一个 300 \* 150 的画布（单位默认为 `px`）。
 
@@ -74,7 +74,7 @@
 
 我们设置 Canvas 画布的宽度为 400，高度为 400，背景颜色为黑色（在 HTML 属性中直接设置宽度和高度是可以不加单位的，默认单位是 `px`）。在 Canvas 上画了一个圆心坐标为 100px、100px，半径为 50px 的白色的圆。来看一下浏览器中的显示效果：
 
-![HTML 属性设置宽度高度](https://user-gold-cdn.xitu.io/2017/11/21/15fddf7f55e90c34?w=2876&h=984&f=jpeg&s=56453)
+![HTML 属性设置宽度高度](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fddf7f55e90c34~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2876&h=984&f=jpeg&s=56453)
 
 ### CSS 属性设置 `width`、`height`
 
@@ -115,7 +115,7 @@
 
 我们来看下浏览器中的显示效果：
 
-![CSS 属性设置宽高](https://user-gold-cdn.xitu.io/2017/11/21/15fddfa24d991c6d?w=2878&h=868&f=jpeg&s=54176)
+![CSS 属性设置宽高](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fddfa24d991c6d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=868&f=jpeg&s=54176)
 
 OMG ヽ(；´Д｀)ﾉ，怎么会是这个样子，我明明是要画一个圆啊，怎么变成椭圆了，是不是我代码写的有问题？
 
@@ -162,7 +162,7 @@ OMG ヽ(；´Д｀)ﾉ，怎么会是这个样子，我明明是要画一个圆�
 
 在浏览器中的效果如下：
 
-![JS动态设置宽度高度](https://user-gold-cdn.xitu.io/2017/11/21/15fddf7f55e90c34?w=2876&h=984&f=jpeg&s=56453)
+![JS动态设置宽度高度](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fddf7f55e90c34~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2876&h=984&f=jpeg&s=56453)
 
 这样就是正常的嘛~
 
@@ -304,7 +304,7 @@ OMG ヽ(；´Д｀)ﾉ，怎么会是这个样子，我明明是要画一个圆�
 
 让我们来看一下效果：
 
-![使用 Canvas 画一个点](https://user-gold-cdn.xitu.io/2017/11/21/15fdef2b5e60b531?w=2876&h=840&f=jpeg&s=46319)
+![使用 Canvas 画一个点](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdef2b5e60b531~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2876&h=840&f=jpeg&s=46319)
 
 有没有看到左上部分有一个白色的点，没有看到？没有看到的同学点开大图看一下(／\_＼)
 
@@ -330,7 +330,7 @@ context.fill();            // 填充当前绘图（路径）
 
 我们可以总结出，使用 Canvas 绘制图像的步骤：
 
-![使用 Canvas 绘制图像的步骤](https://user-gold-cdn.xitu.io/2017/11/22/15fe148e8cf9d486?w=2330&h=482&f=jpeg&s=114987)
+![使用 Canvas 绘制图像的步骤](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe148e8cf9d486~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2330&h=482&f=jpeg&s=114987)
 
 通过使用 Canvas 绘制一个点，我们了解了在 Canvas 中绘图的大致步骤，下面我们来看一下刚刚提到的 `arc()` 方法。
 
@@ -350,7 +350,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 *   eAngle：结束角，以弧度计
 *   counterclockwise：可选。规定应该逆时针还是顺时针绘图。false 为顺时针，true 为逆时针
 
-![图片来自 w3cschool](https://user-gold-cdn.xitu.io/2017/11/21/15fdf0929fbe015f?w=204&h=210&f=gif&s=1857)
+![图片来自 w3cschool](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdf0929fbe015f~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=204&h=210&f=gif&s=1857)
 
 比如我们想画一个顺时针的四分之一圆，应该怎么写呢？
 
@@ -369,7 +369,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 我们先来看一下浏览器中的效果：
 
-![画一个顺时针的四分之一圆](https://user-gold-cdn.xitu.io/2017/11/22/15fe41d14b171fe5?w=2878&h=834&f=jpeg&s=44174)
+![画一个顺时针的四分之一圆](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe41d14b171fe5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=834&f=jpeg&s=44174)
 
 是不是你想要的效果呢(๑´ㅂ\`๑)
 
@@ -379,7 +379,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 这里你可能会问，为什么这个不是闭合的图形呢？因为我只设置了 beginPath 并没有设置 closePath，所以这就不是一条闭合的路径。我们加上 cloasePath 看一下效果。
 
-![闭合图形](https://user-gold-cdn.xitu.io/2017/11/22/15fe4234b5e759a9?w=2878&h=838&f=jpeg&s=45006)
+![闭合图形](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe4234b5e759a9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=838&f=jpeg&s=45006)
 
 如果跟着我一起写代码的话你就会发现，这个是空心的，并没有整个路径都被填充，这是怎么回事呢？
 
@@ -410,7 +410,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 我们来看一下浏览器中的效果：
 
-![绘制直线](https://user-gold-cdn.xitu.io/2017/11/22/15fe430d0904b0fd?w=2878&h=832&f=jpeg&s=46505)
+![绘制直线](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe430d0904b0fd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=832&f=jpeg&s=46505)
 
 在绘制直线的例子中，我们使用了
 
@@ -443,7 +443,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 效果如下：
 
-![绘制直线](https://user-gold-cdn.xitu.io/2017/11/22/15fe45033e25f58e?w=2878&h=836&f=jpeg&s=49033)
+![绘制直线](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe45033e25f58e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=836&f=jpeg&s=49033)
 
 在绘制了直线之后，我们来看一下怎么给绘制的直线添加样式：
 
@@ -486,7 +486,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 ```
 
-![给直线添加属性](https://user-gold-cdn.xitu.io/2017/11/23/15fe80fe5707d56d?w=2878&h=838&f=jpeg&s=46446)
+![给直线添加属性](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/23/15fe80fe5707d56d~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=838&f=jpeg&s=46446)
 
 我绘制了一条由点 (10,10) 到点 (100,100) 的直线，然后将其宽度设置为 10，并且加上“圆角”的效果。
 
@@ -575,7 +575,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 同样的方（tao）法（lu），我们只要在 `fill()` 方法之前设置模糊指数（`shadowBlur`）和颜色（`shadowColor`）就可以了。让我们来看一下浏览器中的效果：
 
-![设置阴影](https://user-gold-cdn.xitu.io/2017/11/23/15fe859e34cf24d3?w=2876&h=820&f=jpeg&s=46979)
+![设置阴影](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/23/15fe859e34cf24d3~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2876&h=820&f=jpeg&s=46979)
 
 在暗色背景中有一个亮色的圆并且加了阴影效果，是不是很像发光的月亮呢(●´∀｀●)ﾉ
 
@@ -629,7 +629,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 我们看一下浏览器中的效果：
 
-![设置渐变](https://user-gold-cdn.xitu.io/2017/11/26/15ff82a119940d21?w=2874&h=836&f=jpeg&s=55739)
+![设置渐变](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/26/15ff82a119940d21~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2874&h=836&f=jpeg&s=55739)
 
 可以看出，`createLinearGradient()` 的参数是两个点的坐标，这两个点的连线实际上就是渐变的方向。我们可以使用 `addColorStop()` 方法来设置渐变的颜色。
 
@@ -662,7 +662,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 效果如下：
 
-![彩虹渐变效果](https://user-gold-cdn.xitu.io/2017/11/26/15ff86ac19b66d3e?w=2878&h=838&f=jpeg&s=73835)
+![彩虹渐变效果](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/26/15ff86ac19b66d3e~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=838&f=jpeg&s=73835)
 
 ## 图形转换
 
@@ -715,7 +715,7 @@ context.arc(x,y,r,sAngle,eAngle,counterclockwise);
 
 只是使用 `scale()` 方法就可以实现缩放的效果，我们再来看一下浏览器中的显示情况：
 
-![实现缩放](https://user-gold-cdn.xitu.io/2017/11/26/15ff8975e0c5a4e3?w=2878&h=830&f=jpeg&s=48668)
+![实现缩放](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/26/15ff8975e0c5a4e3~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=830&f=jpeg&s=48668)
 
 可以看到，在设置 `scale()` 方法之后再设置的矩形，无论是线条的宽度还是坐标的位置，都被放大了。并且 `scale()` 的效果是可以叠加的，也就是说，我们在上面的例子中使用了两次 `scale(2,2)` 那么，最后一个矩形相对于第一个矩形长和宽，以及坐标的位置就放大了 4 倍。
 

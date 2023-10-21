@@ -6,7 +6,7 @@ Tree 组件是递归类组件的典型代表，它常用于文件夹、组织架
 
 本节要实现的 Tree 组件具有以下功能：
 
-![](https://user-gold-cdn.xitu.io/2018/11/27/16753fd7a86231b6?w=428&h=364&f=gif&s=112651)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/11/27/16753fd7a86231b6~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=428&h=364&f=gif&s=112651)
 
 *   节点可以无限延伸（递归）；
 *   可以展开 / 收起子节点；

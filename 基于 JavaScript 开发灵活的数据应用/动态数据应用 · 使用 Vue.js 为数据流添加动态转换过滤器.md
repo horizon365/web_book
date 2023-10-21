@@ -36,7 +36,7 @@ const dataSource = mockDataSource(Array(10).fill(1).map((_, i) => `type${i + 1}`
 
 这段代码中我们模拟了一个包含多种可过滤数据 `type` 的流式数据集，且该数据集过滤字段内容是“不可预知”的。那么我先把它利用 Vue.js 展示到页面上看一下。
 
-![](https://user-gold-cdn.xitu.io/2019/1/22/16873ea78a8e44ef?w=434&h=326&f=gif&s=138516)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/1/22/16873ea78a8e44ef~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=434&h=326&f=gif&s=138516)
 
 DEMO 在线地址：[https://codepen.io/iwillwen/pen/oJKMaK?editors=1010](https://codepen.io/iwillwen/pen/oJKMaK?editors=1010)
 
@@ -118,7 +118,7 @@ new Vue({
 
 DEMO 在线地址：[https://codepen.io/iwillwen/pen/PXMBvb?editors=1010](https://codepen.io/iwillwen/pen/PXMBvb?editors=1010)
 
-![](https://user-gold-cdn.xitu.io/2019/1/22/16873eab27e72097?w=434&h=326&f=gif&s=277568)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/1/22/16873eab27e72097~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=434&h=326&f=gif&s=277568)
 
 ## 19.2 更复杂的动态转换过滤器
 
@@ -230,7 +230,7 @@ new Vue({
 
 DEMO 在线地址：[https://codepen.io/iwillwen/pen/NeQmRX?editors=1010](https://codepen.io/iwillwen/pen/NeQmRX?editors=1010)
 
-![](https://user-gold-cdn.xitu.io/2019/1/22/16873eae36e84a83?w=772&h=412&f=gif&s=433108)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/1/22/16873eae36e84a83~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=772&h=412&f=gif&s=433108)
 
 ### 19.2.2 为未知结构的数据集添加动态过滤器
 
@@ -500,7 +500,7 @@ new Vue({
 
 DEMO 在线地址：[https://codepen.io/iwillwen/pen/Rvbeox?editors=1010](https://codepen.io/iwillwen/pen/Rvbeox?editors=1010)
 
-![](https://user-gold-cdn.xitu.io/2019/1/22/16873eb14d43bd23?w=780&h=503&f=gif&s=1742963)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/1/22/16873eb14d43bd23~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=780&h=503&f=gif&s=1742963)
 
 ## 小结
 

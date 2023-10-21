@@ -40,7 +40,7 @@ export default {
 
 Vue.js 肯定不会以如此低效的方法来处理。Vue.js在默认情况下，每次触发某个数据的 `setter` 方法后，对应的 `Watcher` 对象其实会被 `push` 进一个队列 `queue` 中，在下一个 tick 的时候将这个队列 `queue` 全部拿出来 `run`（ `Watcher` 对象的一个方法，用来触发 `patch` 操作） 一遍。
 
-![](https://user-gold-cdn.xitu.io/2018/1/24/161285d6b2d9e6bd?w=350&h=404&f=png&s=16724)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/1/24/161285d6b2d9e6bd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=350&h=404&f=png&s=16724)
 
 那么什么是下一个 tick 呢？
 

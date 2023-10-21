@@ -24,11 +24,11 @@
 
 当然你也可以选择一些基于网页的即时运行 JavaScript 结果工具来进行学习，这里笔者推荐使用 [CodePen](https://codepen.io/pen/?editors=0012)。你可以直接在这上面编辑 JavaScript 代码，并实时查看运行结果，也可以将其分享给你的小伙伴。
 
-![CodePen](https://user-gold-cdn.xitu.io/2018/4/7/162a02129a549543?w=2120&h=1422&f=jpeg&s=145011)
+![CodePen](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/4/7/162a02129a549543~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2120&h=1422&f=jpeg&s=145011)
 
 在 CodePen 中可以添加一些第三方 JavaScript 库，点击右上角的 “Settings” 按钮，选择 “JavaScript” 标签页，在下方的 “Add External Scripts/Pens” 你就可以使用第三方 JavaScript 库的地址进行引入。CodePen 也提供了一些比较常用的库以供便捷地引入，比如在本小册中将会使用到的 Lodash 工具库。
 
-![Xnip2018-03-73_08-48-19](https://user-gold-cdn.xitu.io/2018/4/7/162a0212995c3077?w=1436&h=1440&f=jpeg&s=229649)
+![Xnip2018-03-73_08-48-19](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/4/7/162a0212995c3077~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1436&h=1440&f=jpeg&s=229649)
 
 当然 CodePen 并不只能运行 JavaScript，它也允许我们直接在上面进行 HTML 和 CSS 的开发，还能实时看到所生成网页的结果。这在我们学习如何进行数据可视化时同样可以派上用场。
 

@@ -78,7 +78,7 @@ cover:archive 做了 2 件事情：
 
 配置好之后，我们直接运行 `npm run cover`，最后的目录结构如下：
 
-![](https://user-gold-cdn.xitu.io/2017/12/1/1600f6b21ec7b5f9?w=1820&h=878&f=png&s=253518)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/1/1600f6b21ec7b5f9~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1820&h=878&f=png&s=253518)
 
 ## 使用自定义变量
 
@@ -131,11 +131,11 @@ index d86f65c..abc9d01 100644
 
 修改完之后，我们再次运行 npm run cover，终端会在 cover:serve 之后进入等待状态：
 
-![](https://user-gold-cdn.xitu.io/2017/12/1/1600f6b886e6e423?w=1280&h=968&f=png&s=228450)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/1/1600f6b886e6e423~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1280&h=968&f=png&s=228450)
 
 同时浏览器会打开覆盖率报告，如下图：
 
-![](https://user-gold-cdn.xitu.io/2017/12/1/1600f6bb0e572ee4?w=976&h=554&f=png&s=70116)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/1/1600f6bb0e572ee4~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=976&h=554&f=png&s=70116)
 
 * * *
 

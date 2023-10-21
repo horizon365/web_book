@@ -16,7 +16,7 @@ npm script 相比 grunt、gulp 之类的构建工具简单很多，因为它消�
 
 第 1 组数据来自 [Google Trends](https://trends.google.com/trends/explore?date=all&q=npm,gulp,webpack,grunt)，如果你想了解任何事物的长期发展趋势，Google Trends 是个非常不错的工具。
 
-![](https://user-gold-cdn.xitu.io/2017/11/21/15fdc0ba908221c0?w=557&h=370&f=png&s=35659)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdc0ba908221c0~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=557&h=370&f=png&s=35659)
 
 图中是 Google 上的 grunt、gulp、webpack、npm 等 4 种工具的搜索量呈现的趋势，npm 无疑是非常值得前端工程师关注的，而真正让他`强大到无所不能（夸张说法）`的 npm script 是不是应该熟练掌握？
 
@@ -24,7 +24,7 @@ npm script 相比 grunt、gulp 之类的构建工具简单很多，因为它消�
 
 第 2 组数据来自 [Stack Overflow Trends](https://insights.stackoverflow.com/trends?tags=npm%2Cgulp%2Cgruntjs%2Cwebpack)，就是那个遇到任何技术问题都可以去找答案的问答社区。
 
-![](https://user-gold-cdn.xitu.io/2017/11/21/15fdc0bd4641dacd?w=932&h=516&f=png&s=80289)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdc0bd4641dacd~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=932&h=516&f=png&s=80289)
 
 图中是 4 种工具逐月问题数在全部问题总数中的占比，虽然整体比例比较小，但是从趋势来看，webpack、npm 依然是值得的关注的技术。
 
@@ -32,6 +32,6 @@ npm script 相比 grunt、gulp 之类的构建工具简单很多，因为它消�
 
 第 3 组数据来自 [The State of JS Survey 2016](https://stateofjs.com/2016/buildtools) 年度调查的结果，虽然 npm script 在 javascript 开发者中接受度没有排到前四名（webpack、grunt、gulp、browserify），但是在其他项中名列前茅，个人也比较好奇今年的实际表现（统计结果还没出来）。
 
-![](https://user-gold-cdn.xitu.io/2017/11/21/15fdc0bfa0c19847?w=556&h=340&f=png&s=44744)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdc0bfa0c19847~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=556&h=340&f=png&s=44744)
 
 好，关于为什么该拥抱 npm script 就说到这里，期待接下来你能跟我一起去探索 npm script 的方方面面，把它学会用好，添加到自己的武器库里。

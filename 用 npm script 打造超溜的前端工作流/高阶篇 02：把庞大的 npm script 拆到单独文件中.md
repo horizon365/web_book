@@ -153,7 +153,7 @@ opn http://localhost:$npm_package_config_port
 
 修改完毕之后，重新运行 npm run cover，不出意外的话，我们能得到和原来完全相同的结果，仔细观察运行的日志，会发现在代码执行前有段额外的输出，如下图中红色框中的内容，scripty 在实际执行的时候会把执行的命令内容打印出来，方便调试：
 
-![](https://user-gold-cdn.xitu.io/2017/12/7/1602e70a1b4df91b?w=874&h=711&f=png&s=94680)
+![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/12/7/1602e70a1b4df91b~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=874&h=711&f=png&s=94680)
 
 ### 高级技巧
 

@@ -4,7 +4,7 @@
 
 所以对于什么是 Canvas，我们也按照这个方法来分析。
 
-![学习概念步骤](https://user-gold-cdn.xitu.io/2017/11/21/15fdd7ebe40358e5?w=1256&h=692&f=jpeg&s=92075)
+![学习概念步骤](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdd7ebe40358e5~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=1256&h=692&f=jpeg&s=92075)
 
 ## 什么是 Canvas
 
@@ -20,11 +20,11 @@
 
 例如，我的[个人博客](http://cherryblog.site/)中的背景就是使用 Canvas 制作的。
 
-![http://cherryblog.site/](https://user-gold-cdn.xitu.io/2017/11/15/15fbdba8bc88ca28?w=960&h=640&f=gif&s=1283617)
+![http://cherryblog.site/](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/15/15fbdba8bc88ca28~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=960&h=640&f=gif&s=1283617)
 
 我们审查元素可以看到整个背景就是一个 Canvas 元素，宽度和高度都是 100%。
 
-![http://cherryblog.site/](https://user-gold-cdn.xitu.io/2017/11/21/15fdd83572dd39a1?w=2878&h=1602&f=jpeg&s=500997)
+![http://cherryblog.site/](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/21/15fdd83572dd39a1~tplv-t2oaga2asx-jj-mark:1512:0:0:0:q75.png?w=2878&h=1602&f=jpeg&s=500997)
 
 ## Canvas 解决了什么问题
 
